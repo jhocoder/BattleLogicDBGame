@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> <!-- Incluye Axios -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>DragonBall Battle</title>
+</head>
+<body>
+    <main id="principal">
+        <h1>
+            DragonBall Battle
+        </h1>
+       <section id="busquedas">
+        <div id="busquedaNombre">
+            <span>Buscar por nombre:</span>
+            <input type="text" name="" id="valueNombre" placeholder="Ingresa el nombre">
+            <input type="submit" value="Buscar" id="buscar">
+        </div>
+
+        <div id="busquedaGenero">
+            <span>Buscar por genero</span>
+            <input type="radio" id="Masculino" name="opcion" value="masculino">
+            <label for="opcion1">Masculino</label>
+            
+            <input type="radio" id="Femenino" name="opcion" value="femenino">
+            <label for="opcion2">Femenino</label>
+            
+        </div>  
+       </section>
+       
+       <div id="personajes">
+
+       </div>
+
+       
+        <button id="entrarJuego">ENTRAR AL  COMBATE</button>
+
+    </main>
+
+
+        <script src="scripts/app.js"></script>
+</body>
+</html>

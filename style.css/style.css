@@ -1,0 +1,140 @@
+* {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 95%;
+  text-align: center;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(0, 0, 0) 100%);
+}
+body h1 {
+  height: 13vh;
+  width: 100vh;
+  text-align: center;
+  font-size: 90px;
+  color: rgb(169, 45, 45);
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+body #principal {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body #principal #busquedas {
+  width: 60vh;
+  height: 13vh;
+  margin-top: -35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.2196078431);
+  border-radius: 10px;
+}
+body #principal #busquedas #busquedaNombre {
+  width: 100%;
+  color: white;
+}
+body #principal #busquedas #busquedaNombre #valueNombre {
+  height: 3.7vh;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+  margin-left: 1vh;
+}
+body #principal #busquedas #busquedaNombre #buscar {
+  margin-left: 2vh;
+  height: 4vh;
+  border-style: none;
+  border-radius: 10px;
+  width: 10vh;
+}
+body #principal #busquedas #busquedaGenero {
+  width: 100%;
+  color: white;
+}
+body #principal #entrarJuego {
+  height: 5vh;
+  width: 30vh;
+  font-size: 15px;
+  background-color: #9a2b2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.883);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+body #principal #entrarJuego:hover {
+  background-color: #b71c1c;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+body #principal #entrarJuego:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+body #principal #personajes {
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  overflow-y: auto;
+  gap: 15px;
+  align-items: center;
+}
+body #principal #personajes .resultado {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: -2p;
+  color: rgb(203, 0, 0);
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+body #principal #personajes .personaje {
+  width: 30vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+body #principal #personajes .personaje img {
+  width: 30%;
+}
+body #principal #personajes .combate {
+  width: 80vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #principal #personajes .combate .combatiente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 30vh;
+  color: white;
+}
+body #principal #personajes .combate .combatiente img {
+  width: 30%;
+}/*# sourceMappingURL=style.css.map */
